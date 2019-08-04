@@ -1,6 +1,6 @@
 # hULMonA: tHe first Universal Language MOdel iN Arabic
 
-https://www.aclweb.org/anthology/W19-4608
+Paper: https://www.aclweb.org/anthology/W19-4608
 
 ## Introduction
 
@@ -24,3 +24,20 @@ To fine-tune the pre-trained hULMonA on your own dataset, please check [fine_tun
 Finally, for downstream task classification, we augment the fine-tuned hULMonA with two fully connected layers with ReLU and Softmax activations respectively. Implementatoin details can be found here: [fine_tune_LM.ipynb](./fine_tune_LM.ipynb)
 
 <img src="https://user-images.githubusercontent.com/9033365/62254560-46aa2200-b402-11e9-8550-adadbd1561f8.png" width="300" />
+
+
+## How do I cite hULMonA?
+Please cite [this paper](https://www.aclweb.org/anthology/W19-4608):
+
+```
+@inproceedings{eljundi2019hulmona,
+  title={hULMonA: The Universal Language Model in Arabic},
+  author={ElJundi, Obeida and Antoun, Wissam and El Droubi, Nour and Hajj, Hazem and El-Hajj, Wassim and Shaban, Khaled},
+  booktitle={Proceedings of the Fourth Arabic Natural Language Processing Workshop},
+  pages={68--77},
+  year={2019}
+}
+```
+
+## Contact information
+For help, issues, or personal communication related to using hULMonA, please contact Obeida ElJundi (`oae15@mail.aub.edu`), Wissam Antoun (`wfa07@mail.aub.edu`), or Nour El Droubi (`ngd02@mail.aub.edu`).
